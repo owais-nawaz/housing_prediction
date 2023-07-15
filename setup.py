@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from typing import List
 
 
@@ -8,7 +8,6 @@ PROJECT_NAME = "housing_predictor"
 VERSION = "0.0.1"
 AUTHOR = "Owais Nawaz"
 DESCRIPTION = "This is a ML Project"
-PACKAGES = ["housing"]
 REQUIREMENT_FILE_NAME = "requirements.txt"
 
 
